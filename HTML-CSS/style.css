@@ -1,0 +1,118 @@
+body {
+    padding: 0px; 
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+header {
+    padding: 2px;
+    background-color: hsl(0, 96%, 44%);
+}
+nav {
+    display: flex;
+}
+
+.main-nav {
+    display: flex;
+    flex: 1;
+}
+.authentication {
+    display: flex;
+    flex: 2.5;
+}
+nav ul li {
+    margin: 10px;
+    display: inline;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color:white;
+}
+.main-nav > li {
+    flex: 1;
+}
+.authentication > li{
+    flex: 0.95;
+    text-align: right;
+}
+.title {
+    text-align: center;
+}
+.review-head {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.movie-rating {
+    flex: 1;
+}
+.movie-synopsis {
+    margin: auto;
+    align-self: flex-start;
+    flex: 2;
+    margin: 0;
+}
+.related-movies {
+    display: flex;
+}
+.related-movies a{
+    /* border: 1px solid black; */
+    /* margin: 1.2px; */
+    height: 332px;
+    flex:1;
+}
+.review-row {
+    display: flex;
+    margin-bottom: 2em;
+}
+.review-card {
+    flex: 1;
+    padding: 20px;
+    margin-left: 1.1em;
+    border: 0.2em solid red;
+}
+.see-more {
+    margin-left: 87%;
+    text-align: right;
+}
+.name {
+    font-weight: bold;
+    color:rgb(252, 144, 94);
+}
+.overall-rating,.rating {
+    font-weight: bold;
+    color: rgb(255, 213, 0);
+}
+fieldset {
+    background-color: rgba(207, 204, 204, 0.87);
+    padding: 2em;
+    border-radius: 2em;
+}
+textarea {
+    width: 100%;
+    border-radius: 1em;
+}
+input[type="text"] {
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+}
+select {
+    width: 100%;
+    border-radius: 1em;
+    height: 30px;
+}
+button {
+    height: 2.5em;
+    border-radius: 1em;
+}
+footer {
+    padding: 1em;
+    text-align: center;
+    background-color: hsl(0, 96%, 44%);
+    color: white;   
+}
