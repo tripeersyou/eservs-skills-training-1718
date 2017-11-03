@@ -7,7 +7,7 @@ body {
 
 header {
     padding: 2px;
-    background-color: hsl(0, 96%, 44%);
+    background-color: darkred;
 }
 nav {
     display: flex;
@@ -37,7 +37,7 @@ nav > ul > li > a {
 }
 
 /* Top part */
-section {
+article {
     margin-left: 5em;
     margin-right: 5em;
 }
@@ -78,7 +78,7 @@ section {
     flex: 1;
     padding: 20px;
     margin-left: 1.1em;
-    border: 0.2em solid red;
+    border: 0.2em solid darkred;
 }
 .name {
     font-weight: bold;
@@ -117,6 +117,6 @@ button {
 footer {
     padding: 1em;
     text-align: center;
-    background-color: hsl(0, 96%, 44%);
+    background-color: darkred;
     color: white;   
 }
