@@ -1,0 +1,12 @@
+.overall-rating, .rating{
+    color: rgb(214, 169, 21);
+}
+nav{
+    color:white !important;
+}
+footer {
+    padding: 1em;
+    text-align: center;
+    background-color: darkred;
+    color: white;
+}

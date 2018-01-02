@@ -4,3 +4,5 @@ This repository contains all the code that was used in teaching the following la
 
 1. [HTML-CSS](https://github.com/tripeersyou/eservs-skills-training-1718/tree/master/HTML-CSS)
 2. [Bootstrap 4](https://github.com/tripeersyou/eservs-skills-training-1718/tree/master/BOOTSTRAP-4)
+3. [PHP](https://github.com/tripeersyou/eservs-skills-training-1718/tree/master/PHP)
+4. [PHP-MYSQL](https://github.com/tripeersyou/eservs-skills-training-1718/tree/master/PHP-MYSQL)
